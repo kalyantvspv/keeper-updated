@@ -32,8 +32,7 @@ function CreateArea(props) {
       title: "",
       content: ""
     });
-    const val = document.querySelectorAll("textarea");
-    val.style.height = `${val.scrollHeight}px`;
+    setexpand(false);
     event.preventDefault();
   }
 
